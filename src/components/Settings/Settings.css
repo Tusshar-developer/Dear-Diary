@@ -1,0 +1,127 @@
+.settings {
+  width: clamp(300px, 60vw, 500px);
+  margin: auto;
+  font-family: var(--main-font);
+}
+
+.settingsPageTitle {
+  margin-top: 40px;
+  font-size: 1.5em;
+}
+
+.settingsSection {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.align-items {
+  align-items: center;
+}
+
+.separator {
+  margin-top: 50px;
+  width: 40px;
+  height: 4px;
+  margin-inline: auto;
+  background: radial-gradient(circle closest-side, #707070 98%, #0000) 0 /
+    calc(100% / 5) 100%;
+  opacity: 50%;
+}
+
+.sectionTitle {
+  font-size: clamp(12px, 5vw, 22px);
+}
+
+.options .theme {
+  padding: 0.5rem 1rem;
+  margin-inline: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  outline: none;
+}
+
+.options .theme.light {
+  border: 1px solid #707070;
+  color: black;
+  background: #fff;
+}
+
+.options .theme.dark {
+  border: 1px solid #a1a1a1;
+  color: white;
+  background: #707070;
+}
+
+.mainFonts .option {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-block: 10px;
+}
+
+.mainFonts input {
+  margin-left: 10px;
+}
+
+.circ {
+  font-family: "circular", sans-serif;
+}
+
+.mont {
+  font-family: "Montserrat", sans-serif;
+}
+
+.rale {
+  font-family: "Raleway", sans-serif;
+}
+
+.danc {
+  font-family: "Dancing Script", cursive;
+}
+
+.round {
+  font-family: "roundhand", cursive;
+  font-size: 1.2em;
+}
+
+fieldset {
+  border: none;
+}
+
+.dangerousSection {
+  border: 1px solid hsl(348, 86%, 43%);
+  color: hsl(348, 100%, 61%);
+  padding: 15px;
+  border-radius: 8px;
+  margin-top: 30px;
+}
+
+.dangerousSection .sectionTitle {
+  margin-bottom: 30px;
+}
+
+.dangerBtn {
+  border: 1px solid #707070;
+  background: transparent;
+  color: black;
+  font-family: var(--main-font);
+  font-size: 14px;
+  margin: auto;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.apply {
+  border: 1px solid #000;
+  background: #707070;
+  color: #fff;
+  font-family: var(--main-font);
+  font-size: 14px;
+  margin: auto;
+  margin-top: 2rem;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}

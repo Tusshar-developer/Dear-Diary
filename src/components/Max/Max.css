@@ -1,0 +1,24 @@
+.dark .max {
+  color: white;
+}
+
+.max {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: var(--main-font);
+  text-align: center;
+}
+
+.max h1 {
+  margin-bottom: 10px;
+}
+
+.newAccLink {
+  font-size: 22px;
+  font-weight: 700;
+  color: #9c6a41 !important;
+  text-underline-offset: 3px;
+  text-decoration-color: #eac8ad;
+}

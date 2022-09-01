@@ -1,0 +1,4 @@
+.dark .loader-6:before,
+.dark .loader-6:after {
+  background-color: rgba(225, 225, 225, 0.702);
+}

@@ -1,0 +1,88 @@
+header {
+  text-align: center;
+  padding: 50px 0px;
+  position: relative;
+  z-index: 1000000;
+}
+
+.title {
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 20px;
+  letter-spacing: 1em;
+}
+
+.title .lastLetter {
+  letter-spacing: 0;
+}
+
+.hamburger {
+  display: flex;
+  width: 20px;
+  flex-wrap: wrap;
+  height: max-content;
+  position: absolute;
+  top: 50%;
+  left: 10vw;
+  transform: translateY(-50%);
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.hamburger.active .bar:nth-child(2) {
+  display: none;
+}
+
+.hamburger.active .bar:nth-child(1) {
+  transform: translateY(120%) rotate(-45deg);
+}
+
+.hamburger.active .bar:nth-child(3) {
+  transform: translateY(-120%) rotate(45deg);
+}
+
+.hamburger:hover .bar,
+.hamburger.active .bar {
+  background: #ea4c89;
+}
+
+.hamburger .bar {
+  background: #cacaca;
+  height: 3px;
+  width: 100%;
+  border-radius: 5px;
+  margin-block: 2px;
+  transition: 0.3s;
+}
+
+.navbar {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: 0.5s;
+}
+
+.navbar.inactive {
+  opacity: 0;
+  pointer-events: none;
+  cursor: default;
+  left: 190px;
+}
+
+.navbar.active {
+  opacity: 1;
+  left: 200px;
+}
+
+.navbar .navLink {
+  color: #707070;
+  font-family: "Raleway", sans-serif;
+  margin-right: 1em;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.navbar .navLink:hover {
+  color: #ea4c89;
+}

@@ -1,0 +1,12 @@
+.message {
+  position: absolute;
+  top: calc(50% + 60px);
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: var(--main-font);
+  text-align: center;
+}
+
+.oi {
+  font-weight: 600;
+}

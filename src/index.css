@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "circular";
+  src: url("./fonts/Circular.ttf");
+}
+
+@font-face {
+  font-family: "Dancing Script";
+  src: url("./fonts/DancingScript-VariableFont_wght.ttf");
+}
+
+@font-face {
+  font-family: "Playfair Display";
+  src: url("./fonts/PlayfairDisplay-VariableFont_wght.ttf");
+}
+
+@font-face {
+  font-family: "Playfair Display Italic";
+  src: url("./fonts/PlayfairDisplay-Italic-VariableFont_wght.ttf");
+}
+
+@font-face {
+  font-family: "Raleway";
+  src: url("./fonts/Raleway-VariableFont_wght.ttf");
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("./fonts/Montserrat-VariableFont_wght.ttf");
+}
+
+@font-face {
+  font-family: "roundhand";
+  src: url("./fonts/Roundhand\ Regular.woff") format("woff");
+}
+
+body.dark {
+  background: #191919;
+}

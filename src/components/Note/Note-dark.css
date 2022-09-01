@@ -1,0 +1,47 @@
+.dark .hamburger2:hover .bar,
+.dark .hamburger2.active .bar {
+  background: #ea4c89;
+}
+
+.dark .hamburger2 .bar {
+  background: #cacaca;
+}
+
+.dark .navbar2 .navLink {
+  color: #cacaca;
+}
+
+.dark .navbar2 .navLink:hover {
+  color: #ea4c89;
+}
+
+.dark .noteTitle {
+  color: #999999;
+}
+
+.dark .date {
+  color: #ea4c89;
+}
+
+.dark .hr {
+  border-color: #222222;
+}
+
+.dark .writingArea {
+  color: rgb(190, 190, 190);
+  background: repeating-linear-gradient(
+    #191919,
+    #191919 24px,
+    #353535 25px,
+    #353535 26px
+  );
+}
+
+.dark .fullPage {
+  background: #191919;
+}
+
+.dark .saveStatus {
+  background: #0a0a0a;
+  border: 1px solid #999999;
+}

@@ -1,0 +1,27 @@
+.dark .registerForms * {
+  color: black;
+}
+
+.dark .registerForm {
+  background: #f5f5f5;
+  border-right: 10px solid #eac8ad;
+}
+
+.dark .field input {
+  border-bottom: 1px solid #eac8ad;
+  background: transparent;
+}
+
+.dark .submitBtn {
+  border: 1px solid #eac8ad;
+  background: #fff;
+}
+
+.dark .errorMsg {
+  color: #ea4c89;
+}
+
+.dark .redirectLink .loginLink {
+  text-decoration-color: #eac8ad;
+  color: #9c6a41;
+}

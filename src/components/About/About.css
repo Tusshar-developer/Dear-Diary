@@ -1,0 +1,22 @@
+body {
+  min-height: 100vh;
+}
+
+.about {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--secondary-font);
+  z-index: -1;
+}
+
+.about p {
+  text-align: center;
+  font-size: 1.3em;
+  color: #707070;
+  padding-inline: 50px;
+}

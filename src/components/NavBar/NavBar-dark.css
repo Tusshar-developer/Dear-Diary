@@ -1,0 +1,20 @@
+.dark .hamburger .bar {
+  background: #cacaca;
+}
+
+.dark .title {
+  color: #fff;
+}
+
+.dark .navbar .navLink {
+  color: #cacaca;
+}
+
+.dark .hamburger:hover .bar,
+.dark .hamburger.active .bar {
+  background: #ea4c89;
+}
+
+.navbar .navLink:hover {
+  color: #ea4c89;
+}

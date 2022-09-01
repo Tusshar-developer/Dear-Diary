@@ -1,0 +1,32 @@
+.dark * {
+  color: white;
+}
+
+.dark .separator {
+  background: radial-gradient(circle closest-side, #8f8f8f 98%, #0000) 0 /
+    calc(100% / 5) 100%;
+}
+
+.dark .options .theme.light {
+  border: 1px solid #8f8f8f;
+  color: black;
+  background: #fff;
+}
+
+.dark .options .theme.dark {
+  border: 1px solid #8f8f8f;
+  color: white;
+  background: #707070;
+}
+
+.dark .dangerousSection {
+  border: 1px solid hsl(348, 86%, 43%);
+  color: hsl(348, 100%, 61%);
+  color: white;
+}
+
+.dark .dangerBtn {
+  border: 1px solid #8f8f8f;
+  background: transparent;
+  color: white;
+}

@@ -1,0 +1,10 @@
+.dark .page {
+  border: 1px solid rgb(143, 143, 143);
+  box-shadow: 0 3px 10px #000;
+}
+
+.dark .page:hover {
+  background: #6f401a;
+  border: 2px solid #814e25;
+  box-shadow: 0 3px 10px #361b05;
+}
